@@ -1,5 +1,5 @@
 {
-  "name": "NEUROTECH-MD",
+  "name": "cally-stars",
   "description": "NEUROTECH is a multidevice WhatsApp bot built to make your WhatsApp enjoyable.",
   "keywords": [
     "bot",
@@ -29,7 +29,7 @@
       "required": false
     },
     "BOT_NAME": {
-      "description": "NEUROTECH-MD",
+      "description": "cally-stars",
       "value": "",
       "required": false
     },
@@ -44,12 +44,12 @@
       "required": false
     },
     "SESSION_ID": {
-      "description": "Enter your session ID, the code you receive after scanning the QR code",
+      "description": "ALPHA;;;H4sIAAAAAAAAA62Ua4+iSBSG/8qmvrYZuYqadDLIRdRGwEZRN/uhhOImN6sKFCf+9w3aPdPJzM72JsunoijOed5T7znfQFEmBC1QC8bfQIWTBlLULWlbITAGkzoMEQY9EEAKwRhARbtu7bg9XfI2mKD8NW2PFPlR3W5SuUpCV5WjQzk/8sXsGdx6oKoPWeL/JuDJOXjGadVUwxEfQlIxom0ti9BLHSqG7TqcPy0JmRkr/Sw/g1sXESY4KSKtilGOMMwWqLVhgj+Jb0yWO3aT6MHQy+nOlQZ8o898zpWUvTUfRihXzYbqGHr+5/CbGKsX1p2mCiNe3MBw0PTCb8UVJ+OicKb6+hxWwkFbhyvmgU+SqEDBLEAFTWj76bqvTcc78Jvzqp8WDLdG++vOca1QO0YbWFeMeRoF2ys1ljbzSXCPX5iHcN0PxSWZnPJhvHfzKTNcZsuXAE1rk8jbZZQxTWCsP4Lb+N0rx/9S9/IlNCLThPaEH4QCIdd6q/b3FRtZx3CGl8G5SEZJcBDzTP4cvmMEwprbMK4awMv0aE77zeiSJ4beFNUBDSyvv55c914de+QHPqQ1/h0lI8VEXIyQrufzgTz0l31ndfJSLnJd8nThcm8wclv/aoX5xspj1MLB6DVvNTZysznDmWtVyayzucjhahtc2q2h1dwwip7vio6onQVgzN56AKMoIRRDmpTFfY9negAGzSvyMaL38oLrqRlMVV9NfaX1XsInZkuKsI5S5Lie4tq2hvXh2kZ2pTHPoAcqXPqIEBQYCaElbk1ECIwQAeM/7zfVicYoLymaJwEYA04UJHHAjnhREr+SL+cYUgKr6kuBKOiBEJe5icCY4hr1wP0HeSipujDURWUoirowEvSJoOoDRRkI/IQbsp3E/JHUTXJEKMwrMGYlkeEkiWdHt97/wzHhR6LAaJymakNOVllG1icsp7GaLDPMhGd+z8Gxt796oEAX+vBxV32e7YEwwYSui7rKShi8m/z9I/T9si7oa1v4SrdAGIw/bCNKkyIinbK6gNiPkwYpnQ4wDmFG0PcLRxgF71rehphSBp0Pd8tXhxccF3TsXaCfajOWfq5OAbvDwMZl+IdM4iRJQA9k918HoiiwkigMBE4YSGPpa7d9+87cpQgQhUlGwBgoc6URSaRrL554NWfTqaxFshLJ4IfG9955eDONxFiGpVWKcnn2CzXejZ4oTepl4JwXhU0Pe11VyCJFqfb8iyAd32SxEP3UOuXhstnoaURbEsEIv3A7daTgKbPub11ePsYi64fDvW8tmotivSjTbGMcmhcJxlej3ZXXyBapdXmdDqw6n8jPXbYANYmPPibD/ox15M0ZXRb8vN2kmSAl5Ekos3p43dgDpnbYfTXS/Re+j/yNo24vYoCuCWc7M2NuP5nM2hefznS6PVpnVRM8k3fc9Pzo6vtUyd6mefLWb8n9NUzQfTi+XdO/3eaDu/Mcc+t9CPE2bf9hYk12grVzpif1ZDkL05ifBc8O8WGH0+3aVKqr5HEr54yVki8v4NaZv8ogDUucgzEg+QGCHsBl3Tl4VoTlbzIpMjObOA/VGSRU/tEVv2p44XHKxmVlQBKDMWAXQmwIncVbuapeKaTvTQbk7rFcE9z+Bn4OQ2SPCAAA",
       "value": "",
       "required": true
     },
     "OWNER_NAME": {
-      "description": "Insert your name here",
+      "description": "cally-stars",
       "value": "",
       "required": false
     },
@@ -60,7 +60,7 @@
       "required": true
     },
     "NUMERO_OWNER": {
-      "description": "Your phone number (exclude '+' and area code, e.g., '2547222222233')",
+      "description": "254756193575",
       "value": "",
       "required": false
     }
