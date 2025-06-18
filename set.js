@@ -13,10 +13,10 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined
 
 
 const config = {
-    session: process.env.SESSION_ID || 'ALPHA;;;H4sIAAAAAAAAA61V266iSBT9lUm9alqKi4DJSQYQFBX0qHibzEMJhZZcLQoRO37LPM0nzH/NJ0zwnDN9ku7pPpM0T0VVsfdae6+1+QzSjBR4jGvQ+wxySi6I4WbJ6hyDHtDLMMQUtEGAGAI94GvJaihCwZ2vmHtVqU/qhKXz/ubYrZQMLjvT42hp2MdLIj6Bexvk5T4m/vcCrgVsOV5gXFrraMkPbJIQRNi2hcozIp3cnlRdpGhHhXBP4N5ERISS9GDmR5xgiuIxrmeI0I/BH9ukPMHAb+mu3dGs2eAYK9FimWxKY+V6jja397J1E1WWOh+DH09X0TN1Eh+LTFF2Z20ae+7N6fCyaZsLdwFPmnI+H/b8ZvsCvyCHFAd2gFNGWP3hurcmrSyl+fR2Q7djsclmI93r19g0r63bhqeyIdym5SQd9s3njwF3WvNhPrhOLBbldBddb+dy4S4jrhWhfqsbsdDYSmofX/dp9R74jL5pJfo/dd+OxNFq61rifqJz++KojhOscFZ4deVWOF7L16Sc8Luhxrjtx+B3NUud5GVr3JmdUI0uYxM6p8D0YsdL+DW5nmZlPUkccoCHL/ARK+n3UNpQvGaBLGZ1la9l2ajOeja+qfURkrWYa3urXi1lBakllc+rTedZPM0vdeipHV0jisvtXSlxVDcJh97sVnDj6c49VLr29GAU4doOQA/e24DiAykYRYxkabMndNsABZcF9ilmj+qCG5udEyMdeu4WnewCjS7XZXwW6ri/zATheOyLG6eseRhbz0+gDXKa+bgocDAkBcto7eCiQAdcgN5vj0Y1nClOMoZHJAA9wEuiLEoQSlBRfi0+VUfECpTnn1LMQBuENEscDHqMlrgNHh+YlsoJsCtKpsaLXVHQZIVT+6pgSaIGZaXfMExeki5JgguGkhz0oCxxvMjJKndv/xwcAqeaMoSqqSiwK2iSxZuaCaGmw76l8Kr+Axzqz8LBQ5OHumXwoqiKUDOhBnnFkmUR8lCSVPG7OBQo3X9vgxRf2YudHiKAbRASWjAvLfM4Q8Gb194Oke9nZcoWdeobzQJT0Hu3jRkj6aFomJUpov6RXLDR8AC9EMUF/ld3mOLgjcvrLDWyoLGD0HXNobqdgQZ7E+ir2vR4+HV54sc1qHZ5CFVekDiJ56TmZnPQBilqgoEhRpTtKUYRpr/8/ceffzUlegXf5AowQyQuQA8YIyMWZuLQtAd+XdiDgWYfNOOggS9k37z8Yhbrur/Q5zJKNSlIYw+TnGh4ERqdZFxyXTIa72PsVdPlDJpP3wgCeoBGpmvXenUqxetgfdh2t5uhM0rXmzrcLEaTiBtnz1I84Iejll8sllw6JiP5MudHcb3fOXKIhcu4peTeRSyv/nJcGdoqMRrjt0GAL8TH75NVXJTohLd4LfC2m+coTcTOyCyKFq9hcVfS82AqerewGns3CUP9dr0VeNidoYW4c2Ynu9JqC478Q0I3KL5UE33qVPu3KfOYcvHr34W8DgDyeA0Jfgzr1378sK0vwBv1cff2uxiv4/8/Rqg+99dyl5vko2q62UmrYXbeHoZRWl0kQtk0I4tE2sROP7qpc3BvbJDHiIUZTUAPoDSg2UM0NCsbOdtpmH0nmaHbtvHKPEYF075Y5BvuV/iXWzOa5UNUHBvFz9WdoDZ6r7U8XzDE3hwHtOYxrhW4/wOupMx3IwkAAA==',
+    session: process.env.SESSION_ID || 'ALPHA;;;H4sIAAAAAAAAA61UW46jRhTdS/3amgZsXpZaGgpo/LbxC7ujfGAooGxerirAeGQpC4iyhfnOBqIsa5YQYXdnWplk0pHCV3Ep7j3n3HPvJ5BmmKIRqkHvE8gJLl2GmiOrcwR6ABZBgAhoA99lLugBOoGho2HaNxeWNxILspildGN5A2aE9Xw1HW6L2UwJBJwcH8G1DfJiH2PvOwknJ6GM612SlRGkDw9b2hWwmrtx//JsWEfcktSxvenD9KkfPoJrk9HFBKehmUcoQcSNR6ieu5i8D34yfujvk9ViGVjWwNiGznbPbek6Ner6LG2PB+jBQhjsOonzTvgeJoQfGIeho29pH5pnxdxb8aa2p56SwlOQug9dOtOVcLm7w6c4TJE/8FHKMKvfrXuitfqzldZ6LgW4Otinw9CAQyGP6svambQOz+Ea0wwJXaXTfR/wbXWMD6PhesjQBD1N+CooOKejP5dL5WSP7K4nrJXUWvrcuXoLfE5evXL8L7rb0NyECz0czDvJdNq1vMtZDHc5H0+J6a2gGVVQ1K16kwvK++Dnu6pLzZlmR4Uolto4vziRHx14wQ+qzpBHYd+Zrte6CZ3uV/guK8j3UHYcyzlidMZkD8V5lEID+QE8PWFBmG4n7tGjpO7DjVIaUTlaToaThT3P4rIo5zsn5S4IVqsxsWfnIMlsL/TsCUwGevh4Y3RE9cAHPf7aBgSFmDLiMpylt5gotYHrl0vkEcRu8oLh8eRT8Sgqi7EzIMtoj0/VUq7LBbJR0Y/mY3+vHNdyUfjcI2iDnGQeohT5fUxZRuoJotQNEQW9H26dakgTlGQMDbEPekAQuzLfETlRUDsf6Ycqchl18/xDihhog4BkyQSBHiMFaoPbD1xHEgRT5HhTVUVB06CmdTXY0SCUOE0ypYZici+6wgmizE1y0ONlkRMknhP4a/v/wSFCGcpdVVAUqD4JqiSahqLKsmqqKjQ51fgXHNL1xzZI0ZndfdyoL/FtEGBC2Tot8jhz/VeTv350PS8rUrasU09vDoiA3pswYgynIW2YFalLvAiXSG943HH/2W9EkP9K5WWH6Znf2HDXH42m4+cxaKA3eb6Rptf9Vpz4fkvhOrIqiaosymq31/3YhNsgdZtM4MvnX3768vnX3758/vn3RpkXzE0NHzEXxxT0gD4WRmFRmebAkmplYFmaHWp6qIGvHF9n5+7NPfLPG4Z1iVO0FhbwdNqHobbIL7m6MaxAZoGz0h6Ep0nn5s2/JgE9oDjn+WWRPnDZocKkdPbnjvXcKs5RXvpVma4hVLfYQQNpNTq4mr7QeWipo9bhcDZoh7mnnaengXIo9mFZ2WhJXZSF0H5sqvmoxB56W4xfxsrKLBW5xiMJnuqYSJbzvB3O0d43RkG+lsd7r8z5zWxbbfmYbsK6HxvKtFQu0ZBUJr9zzXBzUZKNf6FGqqfcCkLtPtW3rRK/bHP8Mm/49hpgdFuOL634t3becTee467tNyletu0/bCzodFJvs9+FBZtr84xlh9Wi2mmm60nBxj6nLXnLH6u5Gq2mKrg25s9jlwUZSUAPuKlPsptdSFY0Jh6kQfadYjocDAz7Tjx2KdO+DsbfzBon3W/NSZb3XRo1Gmxk+bRubF5reb5kLnudM6A1z3Q/ANc/ALJcGd6SCAAA',
     PREFIXE: process.env.PREFIX || ".",
-    OWNER_NAME: process.env.OWNER_NAME || "Cally",
-    NUMERO_OWNER: process.env.NUMERO_OWNER || "254745115188",     
+    OWNER_NAME: process.env.OWNER_NAME || "kijana ya sophie",
+    NUMERO_OWNER: process.env.NUMERO_OWNER || "254713505293",     
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'yes',    
     URL: process.env.URL || "https://files.catbox.moe/grlqyj.png",                         
     AUTO_BLOCK: process.env.AUTO_BLOCK || 'yes', 
@@ -26,7 +26,7 @@ const config = {
     ANTICALL_MSG: process.env.ANTICALL_MSG || 'call declined',             
     GURL: process.env.GURL || "https://www.whatsapp.com/channel/0029VbAGDcU2f3ETH93NUd3o",
     EVENTS: process.env.EVENTS || "yes",    
-    BOT: process.env.BOT_NAME || 'NEUROTECH_MD',
+    BOT: process.env.BOT_NAME || 'kijana ya_sophie',
     MODE: process.env.PUBLIC_MODE || "yes",              
     TIMEZONE: process.env.TIMEZONE || "Africa/Nairobi", 
     PM_PERMIT: process.env.PM_PERMIT || 'yes',
