@@ -19,7 +19,7 @@
     },
       "ANTI_DELETE_MESSAGE": {
       "description": "Enable anti-delete message (set 'yes' to activate or 'no' to deactivate)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     
@@ -44,7 +44,7 @@
       "required": false
     },
     "SESSION_ID": {
-      "description": "ALPHA;;;H4sIAAAAAAAAA61UWa7iRhTdSlS/oMazsaUnxZh5MBgwU5SPwi6bwkOZqrLBtFhLvrKE7CtLiMx7L91KJ50XKf4q13DvOeeeez+DjGCGJqgC5meQU1xCjuolr3IETNApwhBR0AQB5BCYgHRmtKtb97A33dB7Od9EswPKrfS8FUIVt0rnkqmn09GSpNkLeDRBXhwT7H8noCCg8VjUVUTOtJrqRDD02dQ4sHNj1WoXF57F3cvCyZx4576ARx0RYoqzqJefUIooTCaoWkBMPwZ/O0Sr1mq9jdXAt/dF2GWV32MoTwPvcO0RAu0xm2sXgfXcj8G/6aO5cmt5Q8eeoYA4cpEY/nmnDaqtO23Nu7vl+s6gbqgd9gqf4ShDwShAGce8+rDuuJO4Uz5PDhKejqWMGvQSHaP5CPtV5UrjPdxf0lvGZOwJHwOuW0vf7nBt1uFGf5puw4CGHSXcqLuAJWWxERYbRTlhV/G8r4Ev6LtX4v+iuzYYOSTcRTd7I8u9QtXLEVv62l5znOWg6q/kZLfGQxHdJOVj8A0hde7L7RLhvZJSR0hjXZkgHG/CMRkMpox0jk637e772egLfMgL+j2Uo7PU2riNtXYuqNUR9+nRPROdOrrrhf21rZyIF0BPO7YLOBZv1TVd2FPjBhuisETXIWuN11rLCqcT6RhcWmV8EFUY29HLk1GMqlEATPHRBBRFmHEKOSbZc0/WmwAG5Qr5FPGnvOBSTRqHFpmmM7/BA2/uxL027B+ylSDtS2He2FoXtz9xFam9fwFNkFPiI8ZQMMSME1rNEGMwQgyYPz0rVZOmKCUcjXEATCCpiq6ooqiK7faP7NP1BDmDef4pQxw0QUhJOkPA5LRATfB8oBuCYPS7fbmjWz3JUPs9u6sKlqDJYk/vqkpNMX1NusYpYhymOTBFXRVkSRAE5dH8f3Bohm0pfV3Tel1Vlrt2W+safduW1K5o6aIh/gsO7fFzE2Toxl99XKsvi00QYsq4lxV5QmDwbvL3Q+j7pMj4qsp8u14gCsyvthHnOItYzazIIPVPuER2zQOYIUwY+rPgiKLgncvbELNJUPtQ1YadpTERQY29DvSNNqakfitP8rwmGpokioYkq4IqCWp9sz5oggzWwcAQQcqPFMEY0R9+/+XX32qJ3sDXuQLEIU4YMIE9XiXyQhn25tXg3h4NBlYvsuzIAl/IvjfRq0n7t2NJ3SLOLDXIEg/hHFtoFdqtdFIIGh5PjgnyrvP1Quy9/E0QYIJuurEmnuvN0vXovrmQ5U7C+Z3zMsz8uCEbBbleiGys7F1YERq2LXlata/MLdsGKrpJHB22sds6H1ra/pz1dxI7a9S2XupsASqxj75Oth5EqyqjHh7tnBMU7VPgjLL9MQvysHFJabEuDboy2H2Rrn0xaE01bc/ZUB9GuiqWySaIZHJdngaSYKg3XfVQWNiedX1t7+d4Sd7GOn5rPPz8DTF6Tsm3evxrWV+B1+4THs2vYrzN3X+YXZ2lv9U1YZqPr/PdQd0MyWUfDePsWqqY8jnBq1TdJbNufDeW4FG3QZ5AHhKaAhPALKDkaRpKitrOoywk30lmd0ajp8yPJkgg49aXFvlr14mGYSivtxaU5EPITsAE8tI4yEbt98rK8xWH/L3jgFV/9k0Bjz8AuCHdX5wIAAA=",
+      "description": "ALPHA;;;H4sIAAAAAAAAA61UW46jRhTdS/3amgZsXpZaGgpo/LbxC7ujfGAooGxerirAeGQpC4iyhfnOBqIsa5YQYXdnWplk0pHCV3Ep7j3n3HPvJ5BmmKIRqkHvE8gJLl2GmiOrcwR6ABZBgAhoA99lLugBOoGho2HaNxeWNxILspildGN5A2aE9Xw1HW6L2UwJBJwcH8G1DfJiH2PvOwknJ6GM612SlRGkDw9b2hWwmrtx//JsWEfcktSxvenD9KkfPoJrk9HFBKehmUcoQcSNR6ieu5i8D34yfujvk9ViGVjWwNiGznbPbek6Ner6LG2PB+jBQhjsOonzTvgeJoQfGIeho29pH5pnxdxb8aa2p56SwlOQug9dOtOVcLm7w6c4TJE/8FHKMKvfrXuitfqzldZ6LgW4Otinw9CAQyGP6svambQOz+Ea0wwJXaXTfR/wbXWMD6PhesjQBD1N+CooOKejP5dL5WSP7K4nrJXUWvrcuXoLfE5evXL8L7rb0NyECz0czDvJdNq1vMtZDHc5H0+J6a2gGVVQ1K16kwvK++Dnu6pLzZlmR4Uolto4vziRHx14wQ+qzpBHYd+Zrte6CZ3uV/guK8j3UHYcyzlidMZkD8V5lEID+QE8PWFBmG4n7tGjpO7DjVIaUTlaToaThT3P4rIo5zsn5S4IVqsxsWfnIMlsL/TsCUwGevh4Y3RE9cAHPf7aBgSFmDLiMpylt5gotYHrl0vkEcRu8oLh8eRT8Sgqi7EzIMtoj0/VUq7LBbJR0Y/mY3+vHNdyUfjcI2iDnGQeohT5fUxZRuoJotQNEQW9H26dakgTlGQMDbEPekAQuzLfETlRUDsf6Ycqchl18/xDihhog4BkyQSBHiMFaoPbD1xHEgRT5HhTVUVB06CmdTXY0SCUOE0ypYZici+6wgmizE1y0ONlkRMknhP4a/v/wSFCGcpdVVAUqD4JqiSahqLKsmqqKjQ51fgXHNL1xzZI0ZndfdyoL/FtEGBC2Tot8jhz/VeTv350PS8rUrasU09vDoiA3pswYgynIW2YFalLvAiXSG943HH/2W9EkP9K5WWH6Znf2HDXH42m4+cxaKA3eb6Rptf9Vpz4fkvhOrIqiaosymq31/3YhNsgdZtM4MvnX3768vnX3758/vn3RpkXzE0NHzEXxxT0gD4WRmFRmebAkmplYFmaHWp6qIGvHF9n5+7NPfLPG4Z1iVO0FhbwdNqHobbIL7m6MaxAZoGz0h6Ep0nn5s2/JgE9oDjn+WWRPnDZocKkdPbnjvXcKs5RXvpVma4hVLfYQQNpNTq4mr7QeWipo9bhcDZoh7mnnaengXIo9mFZ2WhJXZSF0H5sqvmoxB56W4xfxsrKLBW5xiMJnuqYSJbzvB3O0d43RkG+lsd7r8z5zWxbbfmYbsK6HxvKtFQu0ZBUJr9zzXBzUZKNf6FGqqfcCkLtPtW3rRK/bHP8Mm/49hpgdFuOL634t3becTee467tNyletu0/bCzodFJvs9+FBZtr84xlh9Wi2mmm60nBxj6nLXnLH6u5Gq2mKrg25s9jlwUZSUAPuKlPsptdSFY0Jh6kQfadYjocDAz7Tjx2KdO+DsbfzBon3W/NSZb3XRo1Gmxk+bRubF5reb5kLnudM6A1z3Q/ANc/ALJcGd6SCAAA",
       "value": "",
       "required": true
     },
@@ -60,7 +60,7 @@
       "required": true
     },
     "NUMERO_OWNER": {
-      "description": "254745115188",
+      "description": "254713505293",
       "value": "",
       "required": false
     }
