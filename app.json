@@ -19,18 +19,18 @@
     },
       "ANTI_DELETE_MESSAGE": {
       "description": "Enable anti-delete message (set 'yes' to activate or 'no' to deactivate)",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
     
     "ANTICALL_MSG": {
       "description": "Type your anticall message to always send when calls are declined. You can leave it blank",
-      "value": "This is Allamano personal assistant kindly leave a message",
-      "required": false
+      "value": "This is cally-stars personal assistant kindly leave a message",
+      "required": true
     },
     "BOT_NAME": {
       "description": "cally-stars",
-      "value": "",
+      "value": "true",
       "required": false
     },
     "TIMEZONE": {
@@ -44,7 +44,7 @@
       "required": false
     },
     "SESSION_ID": {
-      "description": "ALPHA;;;H4sIAAAAAAAAA61UW46jRhTdS/3amgZsXpZaGgpo/LbxC7ujfGAooGxerirAeGQpC4iyhfnOBqIsa5YQYXdnWplk0pHCV3Ep7j3n3HPvJ5BmmKIRqkHvE8gJLl2GmiOrcwR6ABZBgAhoA99lLugBOoGho2HaNxeWNxILspildGN5A2aE9Xw1HW6L2UwJBJwcH8G1DfJiH2PvOwknJ6GM612SlRGkDw9b2hWwmrtx//JsWEfcktSxvenD9KkfPoJrk9HFBKehmUcoQcSNR6ieu5i8D34yfujvk9ViGVjWwNiGznbPbek6Ner6LG2PB+jBQhjsOonzTvgeJoQfGIeho29pH5pnxdxb8aa2p56SwlOQug9dOtOVcLm7w6c4TJE/8FHKMKvfrXuitfqzldZ6LgW4Otinw9CAQyGP6svambQOz+Ea0wwJXaXTfR/wbXWMD6PhesjQBD1N+CooOKejP5dL5WSP7K4nrJXUWvrcuXoLfE5evXL8L7rb0NyECz0czDvJdNq1vMtZDHc5H0+J6a2gGVVQ1K16kwvK++Dnu6pLzZlmR4Uolto4vziRHx14wQ+qzpBHYd+Zrte6CZ3uV/guK8j3UHYcyzlidMZkD8V5lEID+QE8PWFBmG4n7tGjpO7DjVIaUTlaToaThT3P4rIo5zsn5S4IVqsxsWfnIMlsL/TsCUwGevh4Y3RE9cAHPf7aBgSFmDLiMpylt5gotYHrl0vkEcRu8oLh8eRT8Sgqi7EzIMtoj0/VUq7LBbJR0Y/mY3+vHNdyUfjcI2iDnGQeohT5fUxZRuoJotQNEQW9H26dakgTlGQMDbEPekAQuzLfETlRUDsf6Ycqchl18/xDihhog4BkyQSBHiMFaoPbD1xHEgRT5HhTVUVB06CmdTXY0SCUOE0ypYZici+6wgmizE1y0ONlkRMknhP4a/v/wSFCGcpdVVAUqD4JqiSahqLKsmqqKjQ51fgXHNL1xzZI0ZndfdyoL/FtEGBC2Tot8jhz/VeTv350PS8rUrasU09vDoiA3pswYgynIW2YFalLvAiXSG943HH/2W9EkP9K5WWH6Znf2HDXH42m4+cxaKA3eb6Rptf9Vpz4fkvhOrIqiaosymq31/3YhNsgdZtM4MvnX3768vnX3758/vn3RpkXzE0NHzEXxxT0gD4WRmFRmebAkmplYFmaHWp6qIGvHF9n5+7NPfLPG4Z1iVO0FhbwdNqHobbIL7m6MaxAZoGz0h6Ep0nn5s2/JgE9oDjn+WWRPnDZocKkdPbnjvXcKs5RXvpVma4hVLfYQQNpNTq4mr7QeWipo9bhcDZoh7mnnaengXIo9mFZ2WhJXZSF0H5sqvmoxB56W4xfxsrKLBW5xiMJnuqYSJbzvB3O0d43RkG+lsd7r8z5zWxbbfmYbsK6HxvKtFQu0ZBUJr9zzXBzUZKNf6FGqqfcCkLtPtW3rRK/bHP8Mm/49hpgdFuOL634t3becTee467tNyletu0/bCzodFJvs9+FBZtr84xlh9Wi2mmm60nBxj6nLXnLH6u5Gq2mKrg25s9jlwUZSUAPuKlPsptdSFY0Jh6kQfadYjocDAz7Tjx2KdO+DsbfzBon3W/NSZb3XRo1Gmxk+bRubF5reb5kLnudM6A1z3Q/ANc/ALJcGd6SCAAA",
+      "description": "ALPHA;;;H4sIAAAAAAAAA61VW47qRhDdStS/oIvfD6SR4hcYm6cNDBDlw9ht0/jRpt0GzNWsJV9ZQvaVJUSGmdyRcjN3IsVf7e521TlVdY6/ggKjCrqwAf2voCToHFDYLmlTQtAHeh3HkIAuiAIagD4YjUs+Z2JfN/fHxDrJtJAVetOW7qw40bX7jJMER1V2clPmCbx0QVnvMxR+EFB1M/Wq6WmU9TYhcx7zlnc7WsUIacpmn7jyhttOTf1wQ9fVE3hpIwaIoCKxygPMIQkyFzbzAJHPwU8cZcd0/PVNyAdIiIV9E+XLTOOCOe6tHXZqlE19HEyODrv9HPyzuYxv460uLGM8bGznJFRVkyxWx60jT7BfrGzFTDaqpRwnD/gVSgoYjSJYUESbT9cdu9kuR9trUuxXRjhIOl5PF4bPDLm46XOyEfTxfNvUF/15IHwOuKOcZvLtXJWNM8jLnArccSh4ZGSr1Z70Op7Jj+bRySOarbwHPidvs5L+l7q7ujrKknQdO9NpvTvs6Xw5z3puZEOlknDROebjUXGQy/1z8jn4w4RKUToJGW9kRgtqwWSa5Nlu3BxcRxHEqdcRr0co+pY/+gY/oDX5CKW/YexTer2E1Cyi6qKpKVW4g3SO+ROO4s16jk8p3ZbVbboQDo1rZD083/tEYqrUr7XINWZyidkyzgfr/c6bDBcKPztcnu6MUtiMItBnX7qAwARVlAQU4aLd4zixC4Lo7MOQQHovL8j51SKLtEHnuqu3R8ZeTVFR9TKfX0wl3Liz6XM5g0tTGAvaE+iCkuAQVhWMbFRRTJoJrKoggRXo/3LvVEuawBxT6KAI9AEnCrIgsqzIKsrP1ZfLIaBVUJZfCkhBF8QE5xMI+pTUsAvuH4iqoegCr4ucqOoyJyqCZMmCJA1kQRIHPNdSzB9JlyiHFQ3yEvRZWWQUkWU48aX7/+CQRMviLV1QTYlTLc0YcJzE6ZwhM6JpcYbyMQ6e/79wcKqsWAPZ5EVdk3hWFhWJsWRGVAyVl1nV+iGOX7uggFf60FM7BTzbBTEiFV0VdZnhIHoT29thEIa4LqjfFKHRLiAB/XfbkFJUJFXLrC4CEh7QGRotD9CPg6yCfw8eJDB64/JqpgaOWj1oHDuxbVcCLfY20D9q0+e/U57sfo1VJY5lVY4XGZFjxPZme9AFRdAGAzYMCN0TGKSQ/PTnb7//0ZboFXybK4I0QFkF+sBwOhk/F2xr3JFlZTQcalaiGYkGvpF9E/NDLIPr/kwWdVpoYlRkK4hKpEE/Nnq5WzMSctx9BleX2XLOWk/fCQL6wPNCqItjxxbys1IvJ/W42OH1SMNnspuc1OHMG8lYE2wnH9/0Xe/QQJQFZjKZDqKeasS2YAaQehtqDw87IUKTPIQHffHUZovgGYXwfbI8WqbRqXd0F4uNsh/7MbnWA5Xp6D1YM72BHXKZZp5UITmnOw2HrOdNF1vWvE4cx/NFulSHmSIzh8mtExsW6c1kLq7Q4mEzd5vLXn8v6NUA0P01RvDu1q/9+GFbH8Db6WNeuu9ivPr/v3io7oXPssSMS+cy2+zEtY1P28ROi8tZRITOMPJzcZNNzPSmeuCllUGZBTTGJAd9EBQRwfehIbhux3lUxPiDZIY+Ghnag3kWVFT7JpHvuRDzuDUnuLSD6gD6gPfUHa+2895oZenTgL4pDmjt40IBvPwF/IQjoSQJAAA=",
       "value": "",
       "required": true
     },
@@ -60,7 +60,7 @@
       "required": true
     },
     "NUMERO_OWNER": {
-      "description": "254713505293",
+      "description": "254745115188",
       "value": "",
       "required": false
     }
