@@ -3,8 +3,7 @@ const { Sequelize } = require('sequelize');
 const path = require('path');
 
 if (fs.existsSync('set.env')) {
-    require('dotenv').config({ path: __dirname + '/set.env' });
-}
+    require('dotenv').config({ path: __dirname + '/set.env' });}}
 
 const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined 
@@ -13,17 +12,17 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined
 
 
 const config = {
-    session: process.env.SESSION_ID || 'ALPHA;;;H4sIAAAAAAAAA61VW47qRhDdStS/oIvfD6SR4hcYm6cNDBDlw9ht0/jRpt0GzNWsJV9ZQvaVJUSGmdyRcjN3IsVf7e521TlVdY6/ggKjCrqwAf2voCToHFDYLmlTQtAHeh3HkIAuiAIagD4YjUs+Z2JfN/fHxDrJtJAVetOW7qw40bX7jJMER1V2clPmCbx0QVnvMxR+EFB1M/Wq6WmU9TYhcx7zlnc7WsUIacpmn7jyhttOTf1wQ9fVE3hpIwaIoCKxygPMIQkyFzbzAJHPwU8cZcd0/PVNyAdIiIV9E+XLTOOCOe6tHXZqlE19HEyODrv9HPyzuYxv460uLGM8bGznJFRVkyxWx60jT7BfrGzFTDaqpRwnD/gVSgoYjSJYUESbT9cdu9kuR9trUuxXRjhIOl5PF4bPDLm46XOyEfTxfNvUF/15IHwOuKOcZvLtXJWNM8jLnArccSh4ZGSr1Z70Op7Jj+bRySOarbwHPidvs5L+l7q7ujrKknQdO9NpvTvs6Xw5z3puZEOlknDROebjUXGQy/1z8jn4w4RKUToJGW9kRgtqwWSa5Nlu3BxcRxHEqdcRr0co+pY/+gY/oDX5CKW/YexTer2E1Cyi6qKpKVW4g3SO+ROO4s16jk8p3ZbVbboQDo1rZD083/tEYqrUr7XINWZyidkyzgfr/c6bDBcKPztcnu6MUtiMItBnX7qAwARVlAQU4aLd4zixC4Lo7MOQQHovL8j51SKLtEHnuqu3R8ZeTVFR9TKfX0wl3Liz6XM5g0tTGAvaE+iCkuAQVhWMbFRRTJoJrKoggRXo/3LvVEuawBxT6KAI9AEnCrIgsqzIKsrP1ZfLIaBVUJZfCkhBF8QE5xMI+pTUsAvuH4iqoegCr4ucqOoyJyqCZMmCJA1kQRIHPNdSzB9JlyiHFQ3yEvRZWWQUkWU48aX7/+CQRMviLV1QTYlTLc0YcJzE6ZwhM6JpcYbyMQ6e/79wcKqsWAPZ5EVdk3hWFhWJsWRGVAyVl1nV+iGOX7uggFf60FM7BTzbBTEiFV0VdZnhIHoT29thEIa4LqjfFKHRLiAB/XfbkFJUJFXLrC4CEh7QGRotD9CPg6yCfw8eJDB64/JqpgaOWj1oHDuxbVcCLfY20D9q0+e/U57sfo1VJY5lVY4XGZFjxPZme9AFRdAGAzYMCN0TGKSQ/PTnb7//0ZboFXybK4I0QFkF+sBwOhk/F2xr3JFlZTQcalaiGYkGvpF9E/NDLIPr/kwWdVpoYlRkK4hKpEE/Nnq5WzMSctx9BleX2XLOWk/fCQL6wPNCqItjxxbys1IvJ/W42OH1SMNnspuc1OHMG8lYE2wnH9/0Xe/QQJQFZjKZDqKeasS2YAaQehtqDw87IUKTPIQHffHUZovgGYXwfbI8WqbRqXd0F4uNsh/7MbnWA5Xp6D1YM72BHXKZZp5UITmnOw2HrOdNF1vWvE4cx/NFulSHmSIzh8mtExsW6c1kLq7Q4mEzd5vLXn8v6NUA0P01RvDu1q/9+GFbH8Db6WNeuu9ivPr/v3io7oXPssSMS+cy2+zEtY1P28ROi8tZRITOMPJzcZNNzPSmeuCllUGZBTTGJAd9EBQRwfehIbhux3lUxPiDZIY+Ghnag3kWVFT7JpHvuRDzuDUnuLSD6gD6gPfUHa+2895oZenTgL4pDmjt40IBvPwF/IQjoSQJAAA=',
+    session: process.env.SESSION_ID || 'ALPHA;;;H4sIAAAAAAAAA61Va4+iSBT9K5v6qjOCIA+TTgYQBVR8QfvY7IcCCih5ShUqTvzvG3R6p5Pd6e1Nlk+Vourcc+8999R3kBeYoClqwPA7KCt8hhS1S9qUCAyBWochqkAXBJBCMASunqV6J03nPFPqRgLH/NotO83kkPvJqmAyUVcQm9nsMdVfwL0LytpLsf8B4NHdj7VR3zk0bD5B7lm83iRO0vu1bdZJT81tJa86ym6ksMkLuLeIEFc4j/QyRhmqYDpFzRLi6nP0J3ZtHiwJTk4cX+LN1hOtetPXsnApWqi5nLU9y3qu6y+45HP0t9PZnsoyRe64aFhb9A/xAm2940ZNXIMV8oMp9tXFdJpzqyd9gqMcBWaAcopp8/m6z7FZec0SNTuxwoY4iKOZj2nfmu+oG6n5NLhBPF7OnVfyOeLrTLpduDM9kM4l7ZfhHKrCir2Igrq7HbQAO9cxt11grpiQ98SX1ZtWkv9S9629N22/UycWSui0PC1mDEdvrzJzjaG4deIkay75dj+Lx+bn6C+w51mnvbi2CL/kDvtZqE7ZnRhz63HVY/B2E8hRNCFEaN7Rh7SuPmIJg7nBqzPGiUgpR+uxapFYFuAS04xomxDTk6HLhT09etW+WVyLUW8zuVILzzcdydNucS8xqkIrj3tfXi0cM17JTIKVl0dGCWrMAAzZexdUKMKEVpDiIn/sSYMugMF5g/wK0Ud5geWk+Xlqnm67zJQnNDnorpFpoZQZ2qzD6WtLDterTHbDdfQCuqCsCh8RggIDE1pUzRwRAiNEwPD3R6fapCuUFRRZOABD0B/w4kAcCLLMCN/I10sMKYFl+TVHFHRBWBXZHIEhrWrUBY8LAiuIap9TeGkkKKrWVwesLKljadwXeJ4dSW2K2TOogzNEKMxKMGTFAcswstTn793/h4coc7yuarzKKpw4GgmqzKo6x0gjVWElkVc/5sGz9z+6IEdX+tRxW32O7YIQV4S6eV2mBQzeRP72E/p+Ued00+S+1i5QBYbvthGlOI9Im1mdw8qP8RlpbR5gGMKUoHsXBOiMfdTiAYXjTlHVuGulzm1BX59XXsJFbQfjIn8egQMu7PMB88ULA+kL7w/ELzKUgy8s53uBKDMhZALQluNpIe2dXyqa2Fw9kXryqzwPM4Qh7KTu2b70zE3xUOVTiqhCwVuVPegndekUCco/wL0Q48brNDpqAeePJx121ViJMV+hcfIO9ylxMPz+07a1ImjxRs7YWRvTCWi71cb5mxqG/b/rIYfZ43IRFb85MKt/01JICPZBF6QPAElmJEZiZEEURWbY/9bu3v9qVRsnQBTilIAh0OZ1kNLI0M2N2/HNyUQxI0WLFPCztW+W8RzJkSCv7AVudoyzXHCiYw6i22A1MIghXVj0qgQSHsunWNo70ss/gIAhmGv6cQ6tNML2glscdkxyqP1+Wo+sG6texgfFmd/YiBvPbG6x2QpHW/IMPdalZporhhZeyj1MZb2x3PUxDerZq9Frlkr00kZ7Sux9sKO0k+2ZMums3Gnq5YNO5Zl7GuWI+KPNbF28+rfjuBRG5MTRSPUy+UqMIHSEztIy6RpdNzo/SDcEVaEt2IzhRGEmHVdPM3uYafrjEcM/bOYpyBCjx5vwo1f/1tKfo8Hcu+8gfjwyv5Cfuuqc3ZFTkFTWbzfaYZrFft5xF2tR7c3tXboyQjMOYRFO9B64tzNfppCGRZW1M5F5EHRBVdTt4Jp5WHwQSVPclXJVlDbrFBKq/DSDf/AXlnmeWlZFaUAStwV4FcWT2+q8UcpyQyF98xagtN/UX4D7n+AOTjuGCQAA',
     PREFIXE: process.env.PREFIX || ".",
     OWNER_NAME: process.env.OWNER_NAME || "kijana ya Ruth",
-    NUMERO_OWNER: process.env.NUMERO_OWNER || "254745115188",     
+    NUMERO_OWNER: process.env.NUMERO_OWNER || "254757569906",     
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',    
     URL: process.env.URL || "https://files.catbox.moe/grlqyj.png",                         
     AUTO_BLOCK: process.env.AUTO_BLOCK || 'yes', 
     GCF: process.env.GROUP_CONTROL || 'yes',     
     AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || 'viewed by cally-stars',   
     AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || 'yes',  
-    ANTICALL_MSG: process.env.ANTICALL_MSG || 'call declined',             
+    ANTICALL_MSG: process.env.ANTICALL_MSG || 'collo declined',             
     GURL: process.env.GURL || "https://www.whatsapp.com/channel/0029VbAGDcU2f3ETH93NUd3o",
     EVENTS: process.env.EVENTS || "yes",    
     BOT: process.env.BOT_NAME || 'kijana ya_ruth',
